@@ -1,0 +1,49 @@
+html {
+  background-color: darkgray;  
+  height: 100vh;
+  width: 100vh;
+}
+.Container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+    height: 75vh;
+}
+.Left {
+    background-color: cornflowerblue;
+    height: 75vh;
+    width:33%;
+    float: left;
+}
+.Middle {
+    background-color: aquamarine;
+    height: 75vh;
+    width:34%;
+    float: left;
+}
+.Right {
+    background-color: palegreen;
+    height: 75vh;
+    width:33%;
+    float: left;
+    position: relative;
+}
+.Bottom-Bar{
+    color: white;
+    font: Arial;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: block;
+    float: left;
+    margin:auto;
+    position: absolute;
+    bottom: 0;
+}
+h1 {
+    line-height: 100px;
+    margin: 0;
+}

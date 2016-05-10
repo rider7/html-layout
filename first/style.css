@@ -1,0 +1,40 @@
+.html {
+    border: 1px solid black;
+}
+.Top-Bar {
+    height: 75px;
+    width: 100%;
+    background-color: dimgray;
+}
+.Container {
+    height: 50vh;
+}
+.Left {
+    background-color: darkgray;
+    height: 50vh;
+    width:15%;
+    float: left;
+}
+.Middle {
+    background-color: whitesmoke;
+    height: 50vh;
+    width:70%;
+    float: left;
+    position: relative;
+}
+.Right {
+    background-color: darkgray;
+    height: 50vh;
+    width:15%;
+    float: left;
+}
+.Bottom-Bar{
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    float: left;
+    margin:auto;
+    position: absolute;
+    bottom: 0;
+}
